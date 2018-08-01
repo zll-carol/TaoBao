@@ -1,0 +1,114 @@
+.top{
+	width: 10rem;
+	height: 0.8rem;
+	background-color:#fe5400;
+	position: relative;
+}
+.top img{
+	width: 0.54rem;
+	height: 0.4rem;
+	position: absolute;
+	top: 0.18rem;
+	left: 0.1rem;
+}
+.top .right{
+	width: 9rem;
+	height: 0.6rem;
+	background-color: #b52600;
+	position: absolute;
+	top: 0.12rem;
+	left: 0.74rem;
+	font-size: 0.26rem;
+	text-align: center;
+	line-height: 0.6rem;
+	color: #fff;
+}
+.banner{
+	width: 10rem;
+	height: 3.2rem;
+	background-color: blue;
+}
+.banner img{
+	width: 10rem;
+	height: 3.2rem;
+}
+.nav{
+	width: 10rem;
+	height: 4.8rem;
+	background-color: #fff;
+}
+.nav li{
+	width: 2rem;
+	font-size: 0.26rem;
+	text-align: center;
+	color: #8c8787;
+	float: left;
+	margin-top: 0.54rem;
+}
+.nav ul li img{
+	width: 1.14rem;
+}
+.content{
+	width: 10rem;
+	height: 6.8rem;
+	background-color:#eee;
+	margin-top: 0.1rem;
+}
+.content .content-top{
+	width: 10rem;
+	height: 0.8rem;
+	background-color: yellow;
+	text-align: center;
+	line-height: 0.8rem;
+	font-size: 0.28rem;
+	/*box-sizing: border-box;*/
+	/*padding-top: 0.24rem;*/
+}
+.content .content-top .img-1{
+	width: 0.42rem;
+	margin-top: 0.22rem;
+}
+.content .content-top span{
+	vertical-align: 0.1rem;
+}
+.content .content-bottom ul li{
+	width: 2.5rem;
+	height: 2.92rem;
+	float: left;
+	box-sizing: border-box;
+	border-left: 1px solid #e8e8e8;
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+}
+.content .content-bottom ul li img{
+	width: 2.5rem;
+}
+.content .content-bottom ul li:nth-child(1) img{
+	width: 5rem;
+}
+.content .content-bottom ul li:nth-child(2) img{
+	width: 5rem;
+}
+.content .content-bottom ul li:nth-child(1),.content .content-bottom ul li:nth-child(2){
+	width: 5rem;
+}
+.bottom{
+	width: 10rem;
+	height: 1.1rem;
+	/*background-color: yellow;*/
+	margin: 0.12rem 0 0 0.2rem;
+}
+.bottom ul li {
+	display: block;
+	float: left;
+	/*border: 1px solid #000;*/
+	/*background-color: green;*/
+	font-size: 0.2rem;
+	margin: 0.14rem 0.8rem 0 1.2rem;
+}
+.bottom ul li:nth-child(1){
+	margin-left: 0.74rem;
+}
+.bottom ul li i{
+	margin-left: 0.1rem;
+}
